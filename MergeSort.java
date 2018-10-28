@@ -1,3 +1,15 @@
+/*
+
+1. divide and conquer, sort left/right part, and merge
+2. when merge: 
+ -- use global copy array to store values before merging
+ -- two pointers traverse copy array and update result to nums 
+
+Author: Mindy927
+
+*/
+
+
 import java.util.*;
 public class MergeSort{
 	static int[] copy; //record orginal values before merge
